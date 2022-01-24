@@ -9,7 +9,6 @@ import { GetStaticPaths } from 'next';
 
 export default function Pokemon({ pokemon }: IPokemon) {
   const router = useRouter();
-  console.log({ pokemon });
    if (router.isFallback) {
      return <div>Loading...</div>;
    }
