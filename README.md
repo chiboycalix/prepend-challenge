@@ -1,5 +1,3 @@
-Please use the Readme to give us a short insight into your approach. That means please describe briefly how you tackled the solution and what core elements of your solution are. You can point us to interesting pieces of code or even parts that you’d like to improve over time.
-
 ### Project Insights
 I decided I'll be using Next.Js rather than React.js so as to make use of the former's pre-rendering and pre-fectching features. 
 
