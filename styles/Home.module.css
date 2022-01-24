@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: block;
+  padding: 0 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.content{
+  width: 100%;
+}
+.list{
+  list-style: none;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  margin: 2rem auto;
+}
+.btnWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 2rem auto;
+}
+.btn{
+  padding: .5rem 3rem;
+  cursor: pointer;
+  border: 1px solid #F78552;
+  outline: none;
+  background-color: #F78552;
+  color: white;
+  border-radius: 5px;
+}
+.disabled{
+  cursor: not-allowed;
+  padding: .5rem 3rem;
+  border-radius: 5px;
+}
+
